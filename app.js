@@ -17,6 +17,10 @@ function connect() {
     host: 'localhost',
     user: 'root',
     password: 'chen@mysql320',
+    // 线上
+    // host: constant.dbHost ,
+    // user: constant.dbUser,
+    // password: constant.dbPwd,
     database: 'ebook'
   })
 }
